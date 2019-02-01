@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<style>
+		body{
+			margin:100px auto;
+			text-align: center;
+		}
+		#tdl-list{
+			border:1px solid #009688;
+			border-radius:2px;
+			width:30%;
+			color:#009688;
+			text-align: left;
+			padding:10px;
+		}
+		#doneTasks{
+			border:1px solid #009688;
+			border-radius:2px;
+			width:30%;
+			color:#009688;
+			text-align: left;
+			padding:10px;
+		}
+		div{
+			margin:20px auto;
+		}
+		.remove{
+			float: right;
+			color:red;
+		}
+		.done
+		{
+			float: right;
+			color:rgb(42, 173, 82);
+			padding-right: 10px;
+		}
+	</style>
+	
+</head>
+<body>
+	<div id="tdl">
+		<div id="tdl-header">
+				<input type="text" id = 'search' placeholder="search for a task">	
+			<input type="text" id = 'new-task' placeholder="Enter new task">
+		
+			<button id="add-task">add</button>
+		</div>
+		<div id="tdl-list">
+
+
+		</div>
+
+		<div id="doneTasks">
+
+		</div>
+	</div>
+	<script src="to-do-list.js"></script>
+</body>
+
+</html>
